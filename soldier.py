@@ -2,6 +2,7 @@ import pygame
 import consts
 import screen
 
+
 def resize_soldier():
     from PIL import Image
     SOLDIER_IMAGE_or = consts.SOLDIER_IMAGE_origin
