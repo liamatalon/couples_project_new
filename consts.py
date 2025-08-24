@@ -1,8 +1,11 @@
 import pygame
 
-WINDOW_WIDTH = 100
-WINDOW_HEIGHT = 750
+ROWS = 25
+COLS = 50
+WINDOW_WIDTH = 500
+WINDOW_HEIGHT = 250
 PLAYER_IMAGE = pygame.image.load(r'soldier.png')
 FONT_NAME = "Calibri"
-WHITE = (225, 225, 225)
+x = 0
+y = 0
 GREEN = (0, 179, 60)
