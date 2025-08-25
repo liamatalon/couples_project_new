@@ -1,10 +1,11 @@
 import pygame
+import soldier
+import screen
 
 ROWS = 50
 COLS = 25
 WINDOW_WIDTH = 500
 WINDOW_HEIGHT = 250
-PLAYER_IMAGE = pygame.image.load(r'soldier.png')
 FONT_NAME = "Calibri"
 WHITE = (225, 225, 225)
 BLACK = (0, 0, 0)
@@ -27,9 +28,10 @@ WIN_LOCATION = \
     (0.2 * WINDOW_WIDTH, WINDOW_HEIGHT / 2 - (WIN_FONT_SIZE / 2))
 START_MESSAGE = 'Welcome to The Flag game.\nHave Fun!'
 START_MESSAGE_FONT_SIZE = LOSE_FONT_SIZE
+START_LOCATION_X = 2
+START_LOCATION_Y = 2
 
-
-
+PLAYER_IMAGE = pygame.image.load(r'soldier.png')
 EXPLOSION_IMAGE = pygame.image.load(r'explotion.png')
 FLAG_IMAGE = pygame.image.load(r'flag.png')
 GRASS_IMAGE = pygame.image.load(r'grass.png')
